@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins';
+}
+
+.main {
+    background-image: url("img/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px; 100vw);
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+
+.main .box {
+    color: white;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.70;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero {
+    font-family: 'Martel Sans';
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+
+}
+
+.hero> :first-child {
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: Center;
+
+}
+
+.hero> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: Center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: Center;
+}
+
+body {
+    background-color: black;
+}
+.separation{
+    height:7px;
+    background-color:rgb(56, 55, 55);
+    
+}
+.btn{
+    padding:3px 8px;
+    font-weight: 400;
+    background-color:rgba(248,243,243,0.021);
+    color:white;
+    border-radius:4px;
+    border:1px solid white;
+    cursor:pointer;
+}
+.btn-red{
+    background-color:red;
+    color:white;
+    padding:3px 24px;
+    font-size:20px;
+    border-radius:4px;
+    font-weight:400;
+}
+ .btn-red-sm{
+    background-color:red;
+    color:white;
+    
+}
+.main input{
+    padding:7px 101px 8px 14px;
+    color:white;
+    font-size:12px;
+    border-radius:4px;
+    background-color: rgba(23,23,23,0.7);
+    
+    border:1px solid rgba(23,23,23,23,0.5);
+}
+.hero-buttons{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:16px;
+}
